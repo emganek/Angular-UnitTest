@@ -12,4 +12,14 @@ export class MyComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  increment(){
+    this.counter = this.counter + 1;
+  }
+
+  decrement(){
+    if (this.counter > 0) {
+      this.counter = this.counter -1;
+    };
+  }
 }

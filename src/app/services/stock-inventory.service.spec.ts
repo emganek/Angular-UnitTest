@@ -16,7 +16,7 @@ const productItems = [
   { id: 2, price: 100, name: 'Another Test' },
 ];
 
-fdescribe('StockInventory2Service', () => {
+describe('StockInventoryService', () => {
   let service: StockInventoryService;
   let http: HttpClient;
   let httpTestingController: HttpTestingController;
